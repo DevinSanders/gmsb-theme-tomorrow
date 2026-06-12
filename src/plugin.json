@@ -1,0 +1,10 @@
+{
+  "publisher": "github.DevinSanders",
+  "id": "theme.tomorrow",
+  "name": "Tomorrow",
+  "version": "1.0.0",
+  "author": "Devin Sanders",
+  "description": "Chris Kempson's Tomorrow theme: five flat palettes — Tomorrow, Night, Night Bright, Night Eighties, Night Blue.",
+  "entryDll": "TomorrowThemePlugin.dll",
+  "isTheme": true
+}

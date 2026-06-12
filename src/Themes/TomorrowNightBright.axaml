@@ -1,0 +1,42 @@
+<!-- Tomorrow Night Bright — Chris Kempson's pure-black base with vivid accents.
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — Tomorrow Night Bright background #000000,
+         current-line #2A2A2A, selection #424242. -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#1A1A1A" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#000000" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#1A1A1A" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#000000" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#2A2A2A" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#424242" />
+
+    <!-- Accents — Tomorrow Night Bright blue + purple. -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#7AA6DA" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#9BBEE5" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#000000" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#C397D8" />
+
+    <!-- Text — Tomorrow Night Bright foreground #EAEAEA + comment #969896.
+         On dark, the lighter tones go on top. -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#EAEAEA" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#969896" />
+
+    <!-- Status pairs — Tomorrow Night Bright named accents on tinted bgs. -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#1F2810" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#B9CA4A" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#2A1011" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#D54E53" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#10202F" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#7AA6DA" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#2A2410" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#E7C547" />
+
+    <!-- Composition keys. -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B47AA6DA" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#7AA6DA" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#969896" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#B9CA4A" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#D54E53" />
+</ResourceDictionary>
