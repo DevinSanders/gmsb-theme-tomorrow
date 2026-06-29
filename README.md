@@ -16,6 +16,25 @@ All five variants share Tomorrow's named accent set — red, orange, yellow, gre
 
 Each palette is a flat set of colours — one selectable look in the host's theme dropdown (shown as "Tomorrow: Tomorrow Night", etc.). There is no Dark/Light variant: the host applies the palette regardless of the active Avalonia variant and infers light/dark Fluent chrome (scrollbars, popups, focus rings) from the background luminance on its own. To switch bases, just pick the other palette.
 
+## Preview
+
+| Tomorrow | Tomorrow Night |
+|----------|----------------|
+| [![Tomorrow — white base #FFFFFF](screenshots/Tomorrow.png)](screenshots/Tomorrow.png) | [![Tomorrow Night — charcoal base #1D1F21](screenshots/TomorrowNight.png)](screenshots/TomorrowNight.png) |
+| Clean white base (#FFFFFF) | Neutral charcoal base (#1D1F21) |
+
+| Tomorrow Night Bright | Tomorrow Night Eighties |
+|-----------------------|-------------------------|
+| [![Tomorrow Night Bright — black base #000000](screenshots/TomorrowNightBright.png)](screenshots/TomorrowNightBright.png) | [![Tomorrow Night Eighties — retro charcoal base #2D2D2D](screenshots/TomorrowNightEighties.png)](screenshots/TomorrowNightEighties.png) |
+| Pure-black base (#000000) | Retro charcoal base (#2D2D2D) |
+
+| Tomorrow Night Blue | |
+|---------------------|--|
+| [![Tomorrow Night Blue — midnight base #002451](screenshots/TomorrowNightBlue.png)](screenshots/TomorrowNightBlue.png) | |
+| Midnight-blue base (#002451) | |
+
+*Click any image for full resolution.*
+
 ## Install
 
 Drop the released `.zip` onto Settings → Plugin Manager. Themes activate live — no restart needed. Pick the palette from Settings → Appearance → Theme.
